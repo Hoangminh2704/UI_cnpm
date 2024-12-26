@@ -28,19 +28,19 @@ header .logo {
     font-weight: bold;
     display: flex;
     align-items: center;
-    gap: 10px; /* Tạo khoảng cách giữa icon và text */
+    gap: 10px;
 }
 
 header .logo .icon {
-    margin-right: 10px; /* Cách khác để tạo khoảng cách */
+    margin-right: 10px; 
 }
 
 header .logo .icon i {
-    color: #333; /* Màu cho icon */
+    color: #333;
 }
 
 header .logo .text {
-    color: #000; /* Màu cho chữ ABC */
+    color: #000; 
 }
 
 header .home-icon {

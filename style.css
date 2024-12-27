@@ -139,7 +139,7 @@ header .icons {
 
 .form-group input,
 .form-group textarea {
-    border: 1px solid #000;
+    border: 2px solid #000;
     border-radius: 5px;
     padding: 10px;
     font-size: 14px;
@@ -162,13 +162,14 @@ header .icons {
     display: inline-block;
     padding: 10px 20px;
     font-size: 14px;
-    border: 1px solid #000;
+    border: px solid #000;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: #9ecaff;
     text-decoration: none;
-    color: #333;
+    color: #000;
     text-align: center;
+    border: 0px;
 }
 
 .actions button:hover {
@@ -242,3 +243,65 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+.h_container{
+    background-color: #cac7c7;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    display: inline-block;
+    width:25px;
+    height:25px;
+    text-align:center;
+    line-height:30px;
+    margin-right: 10px;
+}
+#heart{
+    font-size: 15px;
+}
+#heart:hover{
+    color:red;
+}
+
+.product-item{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid#000;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 8px;
+    margin-right: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+.product-details{
+    flex-grow: 1;
+    margin-left: 10px;
+    /* text-align: center; */
+}
+.product-actions{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Custom scrollbar styles */
+.scrollable-bar{
+    max-height: 300px;
+    overflow-y: auto;
+    margin-left: 10px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background: #9ecaff;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
